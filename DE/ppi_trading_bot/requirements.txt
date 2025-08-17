@@ -1,0 +1,6 @@
+ppi-client
+pandas-gbq
+google-auth
+google-cloud-bigquery
+pandas
+pytz

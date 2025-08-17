@@ -1,0 +1,12 @@
+[2025-05-19T16:11:11.488+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: eod_stock_prices_dag.trigger_postgres_to_duckdb manual__2025-05-19T16:10:40.562942+00:00 [queued]>
+[2025-05-19T16:11:11.509+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: eod_stock_prices_dag.trigger_postgres_to_duckdb manual__2025-05-19T16:10:40.562942+00:00 [queued]>
+[2025-05-19T16:11:11.510+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-05-19T16:11:11.547+0000] {taskinstance.py:2191} INFO - Executing <Task(TriggerDagRunOperator): trigger_postgres_to_duckdb> on 2025-05-19 16:10:40.562942+00:00
+[2025-05-19T16:11:11.561+0000] {standard_task_runner.py:60} INFO - Started process 173 to run task
+[2025-05-19T16:11:11.568+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'eod_stock_prices_dag', 'trigger_postgres_to_duckdb', 'manual__2025-05-19T16:10:40.562942+00:00', '--job-id', '72', '--raw', '--subdir', 'DAGS_FOLDER/eod_dag.py', '--cfg-path', '/tmp/tmpk8qacn_d']
+[2025-05-19T16:11:11.570+0000] {standard_task_runner.py:88} INFO - Job 72: Subtask trigger_postgres_to_duckdb
+[2025-05-19T16:11:11.669+0000] {task_command.py:423} INFO - Running <TaskInstance: eod_stock_prices_dag.trigger_postgres_to_duckdb manual__2025-05-19T16:10:40.562942+00:00 [running]> on host f9247e53eb8d
+[2025-05-19T16:11:11.835+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='eod_stock_prices_dag' AIRFLOW_CTX_TASK_ID='trigger_postgres_to_duckdb' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T16:10:40.562942+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T16:10:40.562942+00:00'
+[2025-05-19T16:11:12.007+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=eod_stock_prices_dag, task_id=trigger_postgres_to_duckdb, execution_date=20250519T161040, start_date=20250519T161111, end_date=20250519T161112
+[2025-05-19T16:11:12.063+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-05-19T16:11:12.102+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

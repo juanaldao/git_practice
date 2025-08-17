@@ -1,0 +1,359 @@
+[2025-05-21T23:16:00.276+0000] {processor.py:186} INFO - Started process (PID=143) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:16:00.279+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:16:00.285+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.285+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:16:00.341+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:16:00.589+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.588+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:fetch_eod_data
+[2025-05-21T23:16:00.612+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.611+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:fetch_eod_data
+[2025-05-21T23:16:00.628+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.627+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:fetch_eod_data
+[2025-05-21T23:16:00.647+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.646+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:fetch_eod_data
+[2025-05-21T23:16:00.662+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.661+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:fetch_eod_data
+[2025-05-21T23:16:00.679+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.678+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:fetch_eod_data
+[2025-05-21T23:16:00.697+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.696+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:fetch_eod_data
+[2025-05-21T23:16:00.699+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.699+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:16:00.730+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.729+0000] {dag.py:3262} INFO - Creating ORM DAG for fetch_eod_data
+[2025-05-21T23:16:00.755+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.754+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-20 00:00:00+00:00, run_after=2025-05-21 00:00:00+00:00
+[2025-05-21T23:16:00.798+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.542 seconds
+[2025-05-21T23:16:31.766+0000] {processor.py:186} INFO - Started process (PID=209) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:16:31.769+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:16:31.773+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:31.772+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:16:31.830+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:16:31.875+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:31.874+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:16:31.957+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:31.956+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:16:32.010+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.257 seconds
+[2025-05-21T23:17:04.080+0000] {processor.py:186} INFO - Started process (PID=279) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:17:04.082+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:17:04.088+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:17:04.088+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:17:04.158+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:17:04.202+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:17:04.202+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:17:04.257+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:17:04.257+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:17:04.308+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.246 seconds
+[2025-05-21T23:17:36.788+0000] {processor.py:186} INFO - Started process (PID=345) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:17:36.792+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:17:36.806+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:17:36.805+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:17:36.868+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:17:36.919+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:17:36.919+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:17:36.971+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:17:36.971+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:17:37.041+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.264 seconds
+[2025-05-21T23:18:09.112+0000] {processor.py:186} INFO - Started process (PID=411) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:18:09.114+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:18:09.118+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:18:09.118+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:18:09.176+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:18:09.218+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:18:09.218+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:18:09.274+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:18:09.274+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:18:09.329+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.232 seconds
+[2025-05-21T23:18:41.483+0000] {processor.py:186} INFO - Started process (PID=480) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:18:41.485+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:18:41.489+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:18:41.489+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:18:41.545+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:18:41.587+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:18:41.587+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:18:41.644+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:18:41.644+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:18:41.749+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.277 seconds
+[2025-05-21T23:19:13.807+0000] {processor.py:186} INFO - Started process (PID=549) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:19:13.809+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:19:13.814+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:19:13.814+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:19:13.874+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:19:13.917+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:19:13.917+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:19:13.973+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:19:13.972+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:19:14.019+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.231 seconds
+[2025-05-21T23:19:46.160+0000] {processor.py:186} INFO - Started process (PID=623) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:19:46.162+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:19:46.166+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:19:46.165+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:19:46.243+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:19:46.281+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:19:46.281+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:19:46.332+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:19:46.331+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:19:46.372+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.223 seconds
+[2025-05-21T23:20:17.535+0000] {processor.py:186} INFO - Started process (PID=689) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:20:17.537+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:20:17.541+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:20:17.540+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:20:17.591+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:20:17.634+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:20:17.634+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:20:17.694+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:20:17.693+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:20:17.741+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.218 seconds
+[2025-05-21T23:20:48.620+0000] {processor.py:186} INFO - Started process (PID=756) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:20:48.622+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:20:48.627+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:20:48.626+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:20:48.687+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:20:48.733+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:20:48.733+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:20:48.791+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:20:48.790+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:20:48.835+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.226 seconds
+[2025-05-21T23:21:20.557+0000] {processor.py:186} INFO - Started process (PID=825) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:21:20.559+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:21:20.563+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:21:20.563+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:21:20.613+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:21:20.651+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:21:20.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:21:20.709+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:21:20.708+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:21:20.812+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.265 seconds
+[2025-05-21T23:21:52.550+0000] {processor.py:186} INFO - Started process (PID=892) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:21:52.552+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:21:52.557+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:21:52.556+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:21:52.618+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:21:52.661+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:21:52.661+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:21:52.721+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:21:52.720+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:21:52.825+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.286 seconds
+[2025-05-21T23:22:23.052+0000] {processor.py:186} INFO - Started process (PID=958) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:22:23.054+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:22:23.059+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:22:23.058+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:22:23.114+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:22:23.156+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:22:23.156+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:22:23.210+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:22:23.210+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:22:23.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.273 seconds
+[2025-05-21T23:22:54.516+0000] {processor.py:186} INFO - Started process (PID=1025) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:22:54.518+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:22:54.522+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:22:54.522+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:22:54.585+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:22:54.627+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:22:54.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:22:54.682+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:22:54.682+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:22:54.780+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.277 seconds
+[2025-05-21T23:23:25.435+0000] {processor.py:186} INFO - Started process (PID=1091) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:23:25.438+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:23:25.442+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:23:25.441+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:23:25.501+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:23:25.539+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:23:25.538+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:23:25.589+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:23:25.589+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:23:25.628+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.204 seconds
+[2025-05-21T23:23:55.942+0000] {processor.py:186} INFO - Started process (PID=1157) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:23:55.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:23:55.948+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:23:55.948+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:23:56.007+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:23:56.050+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:23:56.049+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:23:56.104+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:23:56.103+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:23:56.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.231 seconds
+[2025-05-21T23:24:26.512+0000] {processor.py:186} INFO - Started process (PID=1223) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:24:26.513+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:24:26.518+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:24:26.517+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:24:26.577+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:24:26.617+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:24:26.616+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:24:26.666+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:24:26.666+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:24:26.708+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.207 seconds
+[2025-05-21T23:24:57.102+0000] {processor.py:186} INFO - Started process (PID=1290) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:24:57.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:24:57.109+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:24:57.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:24:57.165+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:24:57.203+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:24:57.203+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:24:57.256+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:24:57.256+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:24:57.375+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.288 seconds
+[2025-05-21T23:25:27.688+0000] {processor.py:186} INFO - Started process (PID=1357) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:25:27.690+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:25:27.694+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:25:27.693+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:25:27.751+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:25:27.794+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:25:27.793+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:25:27.850+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:25:27.850+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:25:27.899+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.222 seconds
+[2025-05-21T23:25:59.881+0000] {processor.py:186} INFO - Started process (PID=1424) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:25:59.883+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:25:59.888+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:25:59.888+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:25:59.947+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:25:59.988+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:25:59.987+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:26:00.043+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:26:00.042+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:26:00.082+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.214 seconds
+[2025-05-21T23:26:32.452+0000] {processor.py:186} INFO - Started process (PID=1496) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:26:32.454+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:26:32.458+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:26:32.457+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:26:32.519+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:26:32.559+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:26:32.559+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:26:32.615+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:26:32.614+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:26:32.657+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.215 seconds
+[2025-05-21T23:27:03.332+0000] {processor.py:186} INFO - Started process (PID=1562) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:27:03.335+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:27:03.340+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:27:03.339+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:27:03.406+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:27:03.461+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:27:03.461+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:27:03.551+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:27:03.550+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:27:03.622+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.303 seconds
+[2025-05-21T23:27:33.902+0000] {processor.py:186} INFO - Started process (PID=1627) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:27:33.904+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:27:33.909+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:27:33.908+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:27:33.967+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:27:34.007+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:27:34.007+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:27:34.056+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:27:34.056+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:27:34.160+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.270 seconds
+[2025-05-21T23:28:04.357+0000] {processor.py:186} INFO - Started process (PID=1693) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:28:04.359+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:28:04.363+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:28:04.363+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:28:04.425+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:28:04.478+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:28:04.477+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:28:04.538+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:28:04.538+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:28:04.653+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.310 seconds
+[2025-05-21T23:28:34.828+0000] {processor.py:186} INFO - Started process (PID=1759) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:28:34.831+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:28:34.835+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:28:34.835+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:28:34.901+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:28:34.969+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:28:34.968+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:28:35.023+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:28:35.023+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:28:35.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.245 seconds
+[2025-05-21T23:29:06.211+0000] {processor.py:186} INFO - Started process (PID=1825) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:29:06.214+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:29:06.218+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:29:06.218+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:29:06.278+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:29:06.321+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:29:06.321+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:29:06.384+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:29:06.383+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:29:06.426+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.228 seconds
+[2025-05-21T23:29:37.426+0000] {processor.py:186} INFO - Started process (PID=1893) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:29:37.428+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:29:37.433+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:29:37.433+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:29:37.489+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:29:37.532+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:29:37.531+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:29:37.585+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:29:37.585+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:29:37.625+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.212 seconds
+[2025-05-21T23:30:08.273+0000] {processor.py:186} INFO - Started process (PID=1960) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:30:08.276+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:30:08.281+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:30:08.281+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:30:08.339+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:30:08.381+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:30:08.380+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:30:08.471+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:30:08.471+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:30:08.580+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.323 seconds
+[2025-05-21T23:30:38.743+0000] {processor.py:186} INFO - Started process (PID=2025) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:30:38.745+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:30:38.751+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:30:38.750+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:30:38.813+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:30:38.855+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:30:38.854+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:30:38.905+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:30:38.905+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:30:39.012+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.283 seconds
+[2025-05-21T23:31:09.393+0000] {processor.py:186} INFO - Started process (PID=2091) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:31:09.395+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:31:09.401+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:31:09.400+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:31:09.461+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:31:09.506+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:31:09.505+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:31:09.557+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:31:09.556+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:31:09.603+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.224 seconds
+[2025-05-21T23:31:40.439+0000] {processor.py:186} INFO - Started process (PID=2158) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:31:40.441+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:31:40.447+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:31:40.447+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:31:40.501+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:31:40.542+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:31:40.542+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:31:40.594+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:31:40.593+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:31:40.658+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.234 seconds
+[2025-05-21T23:32:10.794+0000] {processor.py:186} INFO - Started process (PID=2224) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:32:10.797+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:32:10.803+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:32:10.802+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:32:10.864+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:32:10.910+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:32:10.910+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:32:10.964+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:32:10.963+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:32:11.006+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.225 seconds
+[2025-05-21T23:32:41.821+0000] {processor.py:186} INFO - Started process (PID=2290) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:32:41.823+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:32:41.828+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:32:41.827+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:32:41.883+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:32:41.922+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:32:41.921+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:32:41.978+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:32:41.978+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:32:42.022+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.211 seconds
+[2025-05-21T23:33:12.589+0000] {processor.py:186} INFO - Started process (PID=2356) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:33:12.591+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:33:12.596+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:33:12.595+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:33:12.653+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:33:12.700+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:33:12.699+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:33:12.788+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:33:12.787+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:33:12.840+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.267 seconds
+[2025-05-21T23:33:43.124+0000] {processor.py:186} INFO - Started process (PID=2421) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:33:43.126+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:33:43.131+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:33:43.131+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:33:43.184+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:33:43.221+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:33:43.221+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:33:43.267+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:33:43.266+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:33:43.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.192 seconds
+[2025-05-21T23:34:14.290+0000] {processor.py:186} INFO - Started process (PID=2487) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:34:14.292+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:34:14.296+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:34:14.296+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:34:14.353+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:34:14.396+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:34:14.396+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:34:14.454+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:34:14.453+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:34:14.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.218 seconds
+[2025-05-21T23:34:46.012+0000] {processor.py:186} INFO - Started process (PID=2554) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:34:46.014+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:34:46.018+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:34:46.018+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:34:46.073+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:34:46.110+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:34:46.109+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:34:46.156+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:34:46.156+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:34:46.269+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.268 seconds
+[2025-05-21T23:35:16.526+0000] {processor.py:186} INFO - Started process (PID=2620) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:35:16.529+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:35:16.533+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:35:16.532+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:35:16.586+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:35:16.626+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:35:16.625+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:35:16.675+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:35:16.674+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:35:16.717+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.203 seconds
+[2025-05-21T23:35:47.199+0000] {processor.py:186} INFO - Started process (PID=2685) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:35:47.201+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:35:47.208+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:35:47.207+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:35:47.262+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:35:47.302+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:35:47.301+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:35:47.362+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:35:47.361+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:35:47.471+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.290 seconds
+[2025-05-21T23:36:18.431+0000] {processor.py:186} INFO - Started process (PID=2751) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:36:18.433+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:36:18.437+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:36:18.437+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:36:18.491+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:36:18.530+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:36:18.529+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:36:18.587+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:36:18.586+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:36:18.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.220 seconds
+[2025-05-21T23:36:48.923+0000] {processor.py:186} INFO - Started process (PID=2817) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:36:48.924+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:36:48.930+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:36:48.929+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:36:48.986+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:36:49.025+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:36:49.025+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:36:49.085+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:36:49.084+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:36:49.138+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.226 seconds
+[2025-05-21T23:37:19.491+0000] {processor.py:186} INFO - Started process (PID=2888) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:37:19.493+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:37:19.500+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:37:19.499+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:37:19.566+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:37:19.613+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:37:19.612+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:37:19.662+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:37:19.662+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:37:19.767+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.289 seconds
+[2025-05-21T23:41:38.207+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:41:38.209+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:41:38.213+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.213+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:41:38.269+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:41:38.505+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.504+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:fetch_eod_data
+[2025-05-21T23:41:38.525+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.525+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:fetch_eod_data
+[2025-05-21T23:41:38.539+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.538+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:fetch_eod_data
+[2025-05-21T23:41:38.556+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.556+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:fetch_eod_data
+[2025-05-21T23:41:38.573+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.572+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:fetch_eod_data
+[2025-05-21T23:41:38.587+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.587+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:fetch_eod_data
+[2025-05-21T23:41:38.602+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.602+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:fetch_eod_data
+[2025-05-21T23:41:38.604+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.603+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:41:38.638+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.638+0000] {dag.py:3262} INFO - Creating ORM DAG for fetch_eod_data
+[2025-05-21T23:41:38.663+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.662+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-20 00:00:00+00:00, run_after=2025-05-21 00:00:00+00:00
+[2025-05-21T23:41:38.707+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.514 seconds
+[2025-05-21T23:42:10.002+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:42:10.004+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:42:10.008+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:42:10.007+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:42:10.063+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:42:10.106+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:42:10.106+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:42:10.160+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:42:10.159+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-20 00:00:00+00:00, run_after=2025-05-21 00:00:00+00:00
+[2025-05-21T23:42:10.208+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.218 seconds
+[2025-05-21T23:42:41.631+0000] {processor.py:186} INFO - Started process (PID=276) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:42:41.633+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:42:41.638+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:42:41.637+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:42:41.695+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:42:41.741+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:42:41.740+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:42:41.796+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:42:41.796+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:42:41.847+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.228 seconds
+[2025-05-21T23:43:13.733+0000] {processor.py:186} INFO - Started process (PID=342) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:43:13.736+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:43:13.740+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:43:13.739+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:43:13.802+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:43:13.842+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:43:13.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:43:13.892+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:43:13.892+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:43:13.931+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.209 seconds
+[2025-05-21T23:43:46.098+0000] {processor.py:186} INFO - Started process (PID=408) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:43:46.100+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:43:46.104+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:43:46.103+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:43:46.158+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:43:46.199+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:43:46.198+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:43:46.251+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:43:46.250+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:43:46.296+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.208 seconds
+[2025-05-21T23:44:17.987+0000] {processor.py:186} INFO - Started process (PID=474) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:44:17.989+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:44:17.994+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:44:17.993+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:44:18.049+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:44:18.091+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:44:18.090+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:44:18.144+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:44:18.143+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:44:18.222+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.246 seconds
+[2025-05-21T23:44:50.257+0000] {processor.py:186} INFO - Started process (PID=540) to work on /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:44:50.259+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/eod_data_pipeline.py for tasks to queue
+[2025-05-21T23:44:50.264+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:44:50.264+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:44:50.322+0000] {processor.py:925} INFO - DAG(s) 'fetch_eod_data' retrieved from /opt/airflow/dags/eod_data_pipeline.py
+[2025-05-21T23:44:50.363+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:44:50.362+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:44:50.413+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:44:50.413+0000] {dag.py:4180} INFO - Setting next_dagrun for fetch_eod_data to 2025-05-21 00:00:00+00:00, run_after=2025-05-22 00:00:00+00:00
+[2025-05-21T23:44:50.495+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/eod_data_pipeline.py took 0.250 seconds

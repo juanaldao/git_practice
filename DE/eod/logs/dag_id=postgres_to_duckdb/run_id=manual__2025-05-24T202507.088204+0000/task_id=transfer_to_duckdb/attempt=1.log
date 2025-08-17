@@ -1,0 +1,29 @@
+[2025-05-24T20:25:11.209+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-24T20:25:11.251+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: postgres_to_duckdb.transfer_to_duckdb manual__2025-05-24T20:25:07.088204+00:00 [queued]>
+[2025-05-24T20:25:11.267+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: postgres_to_duckdb.transfer_to_duckdb manual__2025-05-24T20:25:07.088204+00:00 [queued]>
+[2025-05-24T20:25:11.305+0000] {taskinstance.py:2884} INFO - Starting attempt 1 of 1
+[2025-05-24T20:25:11.335+0000] {taskinstance.py:2907} INFO - Executing <Task(PythonOperator): transfer_to_duckdb> on 2025-05-24 20:25:07.088204+00:00
+[2025-05-24T20:25:11.350+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=164) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-24T20:25:11.353+0000] {standard_task_runner.py:72} INFO - Started process 166 to run task
+[2025-05-24T20:25:11.353+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'postgres_to_duckdb', 'transfer_to_duckdb', 'manual__2025-05-24T20:25:07.088204+00:00', '--job-id', '29', '--raw', '--subdir', 'DAGS_FOLDER/postgres_to_duckdb.py', '--cfg-path', '/tmp/tmpukvmc81e']
+[2025-05-24T20:25:11.355+0000] {standard_task_runner.py:105} INFO - Job 29: Subtask transfer_to_duckdb
+[2025-05-24T20:25:11.455+0000] {task_command.py:467} INFO - Running <TaskInstance: postgres_to_duckdb.transfer_to_duckdb manual__2025-05-24T20:25:07.088204+00:00 [running]> on host 97052e8b07bf
+[2025-05-24T20:25:11.644+0000] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='postgres_to_duckdb' AIRFLOW_CTX_TASK_ID='transfer_to_duckdb' AIRFLOW_CTX_EXECUTION_DATE='2025-05-24T20:25:07.088204+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-24T20:25:07.088204+00:00'
+[2025-05-24T20:25:11.647+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-24T20:25:11.648+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-24T20:25:11.649+0000] {logging_mixin.py:190} INFO - Current task name:transfer_to_duckdb state:running start_date:2025-05-24 20:25:11.253067+00:00
+[2025-05-24T20:25:11.650+0000] {logging_mixin.py:190} INFO - Dag name:postgres_to_duckdb and current dag run status:running
+[2025-05-24T20:25:11.651+0000] {taskinstance.py:740} INFO - ::endgroup::
+[2025-05-24T20:25:11.834+0000] {logging_mixin.py:190} INFO - Successfully transferred 10 records to DuckDB
+[2025-05-24T20:25:11.835+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-24T20:25:11.859+0000] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2025-05-24T20:25:11.861+0000] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=postgres_to_duckdb, task_id=transfer_to_duckdb, run_id=manual__2025-05-24T20:25:07.088204+00:00, execution_date=20250524T202507, start_date=20250524T202511, end_date=20250524T202511
+[2025-05-24T20:25:11.914+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-05-24T20:25:11.915+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-05-24T20:25:11.916+0000] {logging_mixin.py:190} INFO - Dag name:postgres_to_duckdb queued_at:2025-05-24 20:25:07.143843+00:00
+[2025-05-24T20:25:11.917+0000] {logging_mixin.py:190} INFO - Task hostname:97052e8b07bf operator:PythonOperator
+[2025-05-24T20:25:11.975+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-24T20:25:12.011+0000] {taskinstance.py:3924} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-24T20:25:12.017+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

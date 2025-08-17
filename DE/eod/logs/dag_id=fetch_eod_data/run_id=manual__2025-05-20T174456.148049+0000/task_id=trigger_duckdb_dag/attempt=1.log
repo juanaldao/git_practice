@@ -1,0 +1,94 @@
+[2025-05-20T17:45:27.338+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-20T17:45:27.397+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_eod_data.trigger_duckdb_dag manual__2025-05-20T17:44:56.148049+00:00 [queued]>
+[2025-05-20T17:45:27.419+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_eod_data.trigger_duckdb_dag manual__2025-05-20T17:44:56.148049+00:00 [queued]>
+[2025-05-20T17:45:27.421+0000] {taskinstance.py:2884} INFO - Starting attempt 1 of 1
+[2025-05-20T17:45:27.457+0000] {taskinstance.py:2907} INFO - Executing <Task(TriggerDagRunOperator): trigger_duckdb_dag> on 2025-05-20 17:44:56.148049+00:00
+[2025-05-20T17:45:27.479+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=115) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-20T17:45:27.482+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fetch_eod_data', 'trigger_duckdb_dag', 'manual__2025-05-20T17:44:56.148049+00:00', '--job-id', '4', '--raw', '--subdir', 'DAGS_FOLDER/eod_data_pipeline.py', '--cfg-path', '/tmp/tmp5vcix160']
+[2025-05-20T17:45:27.483+0000] {standard_task_runner.py:72} INFO - Started process 117 to run task
+[2025-05-20T17:45:27.484+0000] {standard_task_runner.py:105} INFO - Job 4: Subtask trigger_duckdb_dag
+[2025-05-20T17:45:27.579+0000] {task_command.py:467} INFO - Running <TaskInstance: fetch_eod_data.trigger_duckdb_dag manual__2025-05-20T17:44:56.148049+00:00 [running]> on host 9b8de82a55e4
+[2025-05-20T17:45:28.219+0000] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_eod_data' AIRFLOW_CTX_TASK_ID='trigger_duckdb_dag' AIRFLOW_CTX_EXECUTION_DATE='2025-05-20T17:44:56.148049+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-20T17:44:56.148049+00:00'
+[2025-05-20T17:45:28.222+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-20T17:45:28.223+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-20T17:45:28.224+0000] {logging_mixin.py:190} INFO - Current task name:trigger_duckdb_dag state:running start_date:2025-05-20 17:45:27.399159+00:00
+[2025-05-20T17:45:28.225+0000] {logging_mixin.py:190} INFO - Dag name:fetch_eod_data and current dag run status:running
+[2025-05-20T17:45:28.226+0000] {taskinstance.py:740} INFO - ::endgroup::
+[2025-05-20T17:45:28.448+0000] {trigger_dagrun.py:257} INFO - Waiting for postgres_to_duckdb on 2025-05-20 17:45:28.227913+00:00 to become allowed state ['success'] ...
+[2025-05-20T17:46:28.515+0000] {taskinstance.py:3336} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 776, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 742, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/trigger_dagrun.py", line 269, in execute
+    raise AirflowException(f"{self.trigger_dag_id} failed with failed states {state}")
+airflow.exceptions.AirflowException: postgres_to_duckdb failed with failed states failed
+[2025-05-20T17:46:28.536+0000] {logging_mixin.py:190} INFO - Task instance in failure state
+[2025-05-20T17:46:28.538+0000] {logging_mixin.py:190} INFO - Task start:2025-05-20 17:45:27.399159+00:00 end:2025-05-20 17:46:28.534405+00:00 duration:61.135246
+[2025-05-20T17:46:28.540+0000] {logging_mixin.py:190} INFO - Task:<Task(TriggerDagRunOperator): trigger_duckdb_dag> dag:<DAG: fetch_eod_data> dagrun:<DagRun fetch_eod_data @ 2025-05-20 17:44:56.148049+00:00: manual__2025-05-20T17:44:56.148049+00:00, state:running, queued_at: 2025-05-20 17:44:57.656013+00:00. externally triggered: True>
+[2025-05-20T17:46:28.541+0000] {logging_mixin.py:190} INFO - Failure caused by postgres_to_duckdb failed with failed states failed
+[2025-05-20T17:46:28.543+0000] {taskinstance.py:1242} INFO - Marking task as FAILED. dag_id=fetch_eod_data, task_id=trigger_duckdb_dag, run_id=manual__2025-05-20T17:44:56.148049+00:00, execution_date=20250520T174456, start_date=20250520T174527, end_date=20250520T174628
+[2025-05-20T17:46:28.611+0000] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2025-05-20T17:46:28.614+0000] {standard_task_runner.py:124} ERROR - Failed to execute job 4 for task trigger_duckdb_dag (postgres_to_duckdb failed with failed states failed; 117)
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/task/task_runner/standard_task_runner.py", line 117, in _start_by_fork
+    ret = args.func(args, dag=self.dag)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/cli_config.py", line 49, in command
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/cli.py", line 116, in wrapper
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 483, in task_run
+    task_return_code = _run_task_by_selected_method(args, _dag, ti)
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 256, in _run_task_by_selected_method
+    return _run_raw_task(args, ti)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/cli/commands/task_command.py", line 341, in _run_raw_task
+    return ti._run_raw_task(
+           ^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/session.py", line 97, in wrapper
+    return func(*args, session=session, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3029, in _run_raw_task
+    return _run_raw_task(
+           ^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 282, in _run_raw_task
+    TaskInstance._execute_task_with_callbacks(
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3184, in _execute_task_with_callbacks
+    result = self._execute_task(context, task_orig)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 3208, in _execute_task
+    return _execute_task(self, context, task_orig)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 776, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/taskinstance.py", line 742, in _execute_callable
+    return ExecutionCallableRunner(
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/utils/operator_helpers.py", line 252, in run
+    return self.func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/models/baseoperator.py", line 424, in wrapper
+    return func(self, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/airflow/.local/lib/python3.12/site-packages/airflow/operators/trigger_dagrun.py", line 269, in execute
+    raise AirflowException(f"{self.trigger_dag_id} failed with failed states {state}")
+airflow.exceptions.AirflowException: postgres_to_duckdb failed with failed states failed
+[2025-05-20T17:46:28.687+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 1
+[2025-05-20T17:46:28.741+0000] {taskinstance.py:3924} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2025-05-20T17:46:28.809+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

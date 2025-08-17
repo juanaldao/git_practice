@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "ppi-trading-bot",
+  "private_key_id": "9dfa2a2f236b74f2e9dc8fbd8649553933575fe3",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCbkfJn2N9n1wZ2\nmCr5MuF+qJdC96p3Csqkk6olWyNKerqJJdUcUYESET+SRKJM5z/MMH+fxik/cQ5T\ndismvuJP099FnY3tHGKJJo1ollSR7oGbxskTqlQ9upELrruJjbzR1Amq2uRhexSv\nb44vmzRhX3WIwS2IjbOSV+RnceuoIGQCq0ouiIr9er3M9yxQuxJMIv9kU/NfKyZj\n/rv7PA7azB2m/r/iDG20o7g7EhOsLbmm2nakwUGQLqiMWWMrhf4ZglYqQnxTKqHC\nx4ZYXhf+Zt2vDflR5Ie1do4TmvSjWwkdUsKuFPMt9RjSg99RmoPBwRmWQ9XP7mb3\nzyH4t4ivAgMBAAECggEAAkuh/wRFL5wNnVxbbffhOeQ07ykGW+FN4iXHoet5VtT+\nwZ1MSrGtLN4SSQ84MdhLqbChgXMEEsqRQowA0P6KClF+/uD3QiNkFM/70Co/rzOM\nuAaz2tVtjsec8kYuwDXWLmZpihrWudV+FaSYvX0VxcYJzu3CxTwKBUPEu/4DUyS5\nTQlz6UddyqkZUFvL9UQNu9qoEeKMTJ0DqhvbBpBEEiwZUf7xJRVGpkw9HsyFO+Fz\nqPojEjdx6ZoGP1FPhvjpYi4JkH8K/FYP7G8FcLoaBRSLGf0GdrMJFczZet60a2zn\neSWp+somDy3i32puBd8rQDFaiFZXMjiy4pUjOylFEQKBgQDXV3YeBJXmCzOLOBYW\n5qldSq53/j/swFJpUxv8tQjLSHBzWMvHho5SZyCPx9wgXUqdBtnylo1+6b3FUBmY\nX5zjHCjRX1ZKNfu2DvQkD3ot9Lj738ggFK2JxJIRRWm36PlnTxe42oHYSOTIVZX5\nobmbPuj5nMr5tjkYDsVgAOsZlwKBgQC48W2TN6P/vms1X1+LNJbel/yfnHNIO3zN\nLqnLE471n4zGm27DZ0tZGWOLL8xP3BMmkkoZibKI7OCldhQm2Y+HxaTFgwSwSvhQ\n9xVWLGuGtqrr/lzCzzeUFwgnGuq9nsNYuYt8EoxDDEJV96/VMYxsyJMZ96cMIjUl\nzTwbXqX8qQKBgQDC/h+m7uANfvcdiZv3AMc8AvQZE9EuwLffR7KAEi30ZZPt3uon\nsmANnfSOPZvGcrOtnRad5FYcJewBT5bdszaNMGKFtJ6edGOJZ+ELBjjMhF09NlYx\nNogtyCG8Ie6o6f1s3uHMMZCCGP+RqG41rYw0V7L+1Eu38pmgfz+avzoj4QKBgQCc\n/dRWM9UzMyEunVctg+bN7Za0psn1dwnp4sKfcGradiW6MhdEKFr9t1+Yt2poIBjh\nlSzxoMG9GddYnXNdxzDfwBau0xkXzYwcrqGeFPbx0/4jdjin5d74BtUU3PSHIk4Q\n8vBE0jnecHmfIDJSd00MyvaUBHX5BtC21hE/6ohcgQKBgQDAZn54n92w33qKKa34\nSpW1/xoDD5EWZIAHiZ7I8pbN3zwTvfDcKbMBSKe9yGfvX+TStdH1uklW7q4IuFu0\nHrvhLuSLpg5JRr6V1j/O5+niDnU7SfdSba1ZEb87ZJtSwfjQVlB0WhxjxA9BPUdn\n+N9hR/YLNwM3FizpBwQeATa3Zg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "ppi-sa@ppi-trading-bot.iam.gserviceaccount.com",
+  "client_id": "117945318221628293782",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/ppi-sa%40ppi-trading-bot.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

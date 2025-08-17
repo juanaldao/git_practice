@@ -1,0 +1,28 @@
+[2025-05-20T17:31:25.064+0000] {local_task_job_runner.py:123} INFO - ::group::Pre task execution logs
+[2025-05-20T17:31:25.346+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: fetch_eod_data.fetch_eod_data manual__2025-05-20T17:31:13.991433+00:00 [queued]>
+[2025-05-20T17:31:25.361+0000] {taskinstance.py:2631} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: fetch_eod_data.fetch_eod_data manual__2025-05-20T17:31:13.991433+00:00 [queued]>
+[2025-05-20T17:31:25.426+0000] {taskinstance.py:2884} INFO - Starting attempt 1 of 2
+[2025-05-20T17:31:25.455+0000] {taskinstance.py:2907} INFO - Executing <Task(PythonOperator): fetch_eod_data> on 2025-05-20 17:31:13.991433+00:00
+[2025-05-20T17:31:25.470+0000] {warnings.py:112} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:70: DeprecationWarning: This process (pid=104) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2025-05-20T17:31:25.475+0000] {standard_task_runner.py:72} INFO - Started process 106 to run task
+[2025-05-20T17:31:25.473+0000] {standard_task_runner.py:104} INFO - Running: ['***', 'tasks', 'run', 'fetch_eod_data', 'fetch_eod_data', 'manual__2025-05-20T17:31:13.991433+00:00', '--job-id', '5', '--raw', '--subdir', 'DAGS_FOLDER/eod_data_pipeline.py', '--cfg-path', '/tmp/tmp74nax0_r']
+[2025-05-20T17:31:25.476+0000] {standard_task_runner.py:105} INFO - Job 5: Subtask fetch_eod_data
+[2025-05-20T17:31:25.564+0000] {task_command.py:467} INFO - Running <TaskInstance: fetch_eod_data.fetch_eod_data manual__2025-05-20T17:31:13.991433+00:00 [running]> on host 00b3251bdfc2
+[2025-05-20T17:31:25.786+0000] {taskinstance.py:3157} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='fetch_eod_data' AIRFLOW_CTX_TASK_ID='fetch_eod_data' AIRFLOW_CTX_EXECUTION_DATE='2025-05-20T17:31:13.991433+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-20T17:31:13.991433+00:00'
+[2025-05-20T17:31:25.789+0000] {logging_mixin.py:190} INFO - Task instance is in running state
+[2025-05-20T17:31:25.790+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: queued
+[2025-05-20T17:31:25.791+0000] {logging_mixin.py:190} INFO - Current task name:fetch_eod_data state:running start_date:2025-05-20 17:31:25.348078+00:00
+[2025-05-20T17:31:25.792+0000] {logging_mixin.py:190} INFO - Dag name:fetch_eod_data and current dag run status:running
+[2025-05-20T17:31:25.793+0000] {taskinstance.py:740} INFO - ::endgroup::
+[2025-05-20T17:31:38.760+0000] {python.py:240} INFO - Done. Returned value was: None
+[2025-05-20T17:31:38.786+0000] {taskinstance.py:349} INFO - ::group::Post task execution logs
+[2025-05-20T17:31:38.787+0000] {taskinstance.py:361} INFO - Marking task as SUCCESS. dag_id=fetch_eod_data, task_id=fetch_eod_data, run_id=manual__2025-05-20T17:31:13.991433+00:00, execution_date=20250520T173113, start_date=20250520T173125, end_date=20250520T173138
+[2025-05-20T17:31:38.842+0000] {logging_mixin.py:190} INFO - Task instance in success state
+[2025-05-20T17:31:38.843+0000] {logging_mixin.py:190} INFO -  Previous state of the Task instance: running
+[2025-05-20T17:31:38.844+0000] {logging_mixin.py:190} INFO - Dag name:fetch_eod_data queued_at:2025-05-20 17:31:14.595518+00:00
+[2025-05-20T17:31:38.845+0000] {logging_mixin.py:190} INFO - Task hostname:00b3251bdfc2 operator:PythonOperator
+[2025-05-20T17:31:38.887+0000] {local_task_job_runner.py:266} INFO - Task exited with return code 0
+[2025-05-20T17:31:38.943+0000] {taskinstance.py:3924} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2025-05-20T17:31:38.947+0000] {local_task_job_runner.py:245} INFO - ::endgroup::

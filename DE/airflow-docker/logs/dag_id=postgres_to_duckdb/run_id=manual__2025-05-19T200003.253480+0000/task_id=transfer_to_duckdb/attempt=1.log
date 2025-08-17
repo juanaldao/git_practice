@@ -1,0 +1,24 @@
+[2025-05-19T20:00:07.002+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: postgres_to_duckdb.transfer_to_duckdb manual__2025-05-19T20:00:03.253480+00:00 [queued]>
+[2025-05-19T20:00:07.018+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: postgres_to_duckdb.transfer_to_duckdb manual__2025-05-19T20:00:03.253480+00:00 [queued]>
+[2025-05-19T20:00:07.019+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-05-19T20:00:07.120+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transfer_to_duckdb> on 2025-05-19 20:00:03.253480+00:00
+[2025-05-19T20:00:07.134+0000] {standard_task_runner.py:60} INFO - Started process 130 to run task
+[2025-05-19T20:00:07.142+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'postgres_to_duckdb', 'transfer_to_duckdb', 'manual__2025-05-19T20:00:03.253480+00:00', '--job-id', '83', '--raw', '--subdir', 'DAGS_FOLDER/postgres_to_duck.py', '--cfg-path', '/tmp/tmpxyp51u_a']
+[2025-05-19T20:00:07.146+0000] {standard_task_runner.py:88} INFO - Job 83: Subtask transfer_to_duckdb
+[2025-05-19T20:00:07.259+0000] {task_command.py:423} INFO - Running <TaskInstance: postgres_to_duckdb.transfer_to_duckdb manual__2025-05-19T20:00:03.253480+00:00 [running]> on host a8da468dcf07
+[2025-05-19T20:00:07.502+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='postgres_to_duckdb' AIRFLOW_CTX_TASK_ID='transfer_to_duckdb' AIRFLOW_CTX_EXECUTION_DATE='2025-05-19T20:00:03.253480+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-19T20:00:03.253480+00:00'
+[2025-05-19T20:00:07.561+0000] {taskinstance.py:2698} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 433, in _execute_task
+    result = execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 199, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 216, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/postgres_to_duck.py", line 23, in transfer_to_duckdb
+    con = duckdb.connect("/opt/airflow/data/stock_data.duckdb")
+duckdb.duckdb.IOException: IO Error: Cannot open file "/opt/***/data/stock_data.duckdb": Permission denied
+[2025-05-19T20:00:07.586+0000] {taskinstance.py:1138} INFO - Marking task as FAILED. dag_id=postgres_to_duckdb, task_id=transfer_to_duckdb, execution_date=20250519T200003, start_date=20250519T200007, end_date=20250519T200007
+[2025-05-19T20:00:07.608+0000] {standard_task_runner.py:107} ERROR - Failed to execute job 83 for task transfer_to_duckdb (IO Error: Cannot open file "/opt/***/data/stock_data.duckdb": Permission denied; 130)
+[2025-05-19T20:00:07.640+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2025-05-19T20:00:07.674+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check

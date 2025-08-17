@@ -1,0 +1,100 @@
+CREATE TYPE films AS (
+	film TEXT,
+	votes TEXT,
+	rating REAL,
+	filmid TEXT,
+	year INTEGER
+);
+
+CREATE TABLE actors (
+	actor TEXT,
+	actorid TEXT PRIMARY KEY,
+	films films[],
+	current_year INT,
+	quality_class TEXT,
+	is_active BOOLEAN
+);
+
+INSERT INTO actors (
+WITH
+yesterday AS (SELECT * FROM actors WHERE current_year = 1969),
+today AS (SELECT * FROM actor_films WHERE year = 1970)
+
+SELECT
+	COALESCE(t.actor, y.actor) actor,
+	COALESCE(t.actorid, y.actorid) actorid,
+	CASE
+		WHEN films IS NULL THEN ARRAY[ROW(t.film, t.votes, t.rating, t.filmid, t.year)::films]
+		WHEN films IS NOT NULL THEN y.films || ARRAY[ROW(t.film, t.votes, t.rating, t.filmid, t.year)::films]
+		ELSE y.films END AS films
+FROM today t
+FULL OUTER JOIN yesterday y ON t.actorid = y.actorid
+);
+
+--Tendría que usar esta de abajo para el today y yesterday.
+CREATE TABLE films_per_actor_year (
+	actor TEXT,
+	actorid TEXT,
+	year INT,
+	films films[],
+	PRIMARY KEY (actorid, year)
+);
+
+INSERT INTO films_per_actor_year
+WITH films_per_actor_year AS (
+SELECT
+	actor,
+	actorid,
+	year,
+	ARRAY[ROW(film, votes, rating, filmid, year)::films] films
+FROM
+	actor_films
+)
+SELECT
+	actor,
+	actorid,
+	year,
+	ARRAY_AGG(films) films
+FROM
+	films_per_actor_year
+GROUP BY
+	actor,
+	actorid,
+	year
+ORDER BY
+	year,
+	actorid;
+
+INSERT INTO actors
+WITH
+  yesterday AS (SELECT * FROM actors WHERE current_year = 1979),
+  today AS (SELECT * FROM films_per_actor_year WHERE year = 1980)
+SELECT
+  COALESCE(t.actor, y.actor) AS actor,
+  COALESCE(t.actorid, y.actorid) AS actorid,
+  CASE
+    WHEN y.films IS NULL THEN t.films
+	WHEN y.films IS NOT NULL THEN y.films || t.films
+    ELSE y.films
+  END AS films,
+  COALESCE(t.year, y.current_year) current_year
+FROM today t
+FULL OUTER JOIN yesterday y ON t.actorid = y.actorid
+ON CONFLICT (actorid)
+DO UPDATE SET
+  actor = EXCLUDED.actor,
+  films = EXCLUDED.films,
+  current_year = EXCLUDED.current_year;
+
+
+-- SELECT 
+--     column_name,
+--     data_type,
+--     character_maximum_length,
+--     numeric_precision,
+--     numeric_scale
+-- FROM 
+--     information_schema.columns
+-- WHERE 
+--     table_schema = 'public'
+--     AND table_name   = 'actor_films';

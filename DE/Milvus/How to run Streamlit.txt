@@ -1,0 +1,18 @@
+How to run
+Save this as app.py
+
+Install dependencies:
+
+nginx
+Copiar
+Editar
+pip install streamlit pymilvus openai
+Replace all "YOUR_..." placeholders with your actual API keys and connection info.
+
+Run the app:
+
+arduino
+Copiar
+Editar
+streamlit run app.py
+Open the browser URL Streamlit shows you, ask questions, and get GPT-based answers referencing your PDF!

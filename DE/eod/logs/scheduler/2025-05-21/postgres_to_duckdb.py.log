@@ -1,0 +1,359 @@
+[2025-05-21T23:16:00.288+0000] {processor.py:186} INFO - Started process (PID=144) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:16:00.290+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:16:00.294+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.294+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:16:00.399+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:16:00.643+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.642+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:postgres_to_duckdb
+[2025-05-21T23:16:00.667+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.665+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:postgres_to_duckdb
+[2025-05-21T23:16:00.684+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.683+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:postgres_to_duckdb
+[2025-05-21T23:16:00.703+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.702+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:postgres_to_duckdb
+[2025-05-21T23:16:00.719+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.718+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:postgres_to_duckdb
+[2025-05-21T23:16:00.734+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.733+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:postgres_to_duckdb
+[2025-05-21T23:16:00.749+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.748+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:postgres_to_duckdb
+[2025-05-21T23:16:00.750+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.750+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:16:00.781+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.780+0000] {dag.py:3262} INFO - Creating ORM DAG for postgres_to_duckdb
+[2025-05-21T23:16:00.783+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:00.783+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:16:00.830+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.556 seconds
+[2025-05-21T23:16:31.900+0000] {processor.py:186} INFO - Started process (PID=210) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:16:31.905+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:16:31.917+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:31.915+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:16:32.075+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:16:32.119+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:32.118+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:16:32.153+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:16:32.152+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:16:32.201+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.319 seconds
+[2025-05-21T23:17:04.183+0000] {processor.py:186} INFO - Started process (PID=280) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:17:04.185+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:17:04.189+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:17:04.189+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:17:04.283+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:17:04.327+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:17:04.326+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:17:04.366+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:17:04.365+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:17:04.419+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.254 seconds
+[2025-05-21T23:17:36.862+0000] {processor.py:186} INFO - Started process (PID=346) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:17:36.864+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:17:36.876+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:17:36.875+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:17:36.975+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:17:37.019+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:17:37.018+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:17:37.052+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:17:37.051+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:17:37.105+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.263 seconds
+[2025-05-21T23:18:09.125+0000] {processor.py:186} INFO - Started process (PID=412) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:18:09.127+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:18:09.132+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:18:09.131+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:18:09.235+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:18:09.275+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:18:09.274+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:18:09.309+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:18:09.308+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:18:09.357+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.244 seconds
+[2025-05-21T23:18:41.613+0000] {processor.py:186} INFO - Started process (PID=481) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:18:41.615+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:18:41.619+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:18:41.619+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:18:41.711+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:18:41.748+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:18:41.748+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:18:41.777+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:18:41.776+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:18:41.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.216 seconds
+[2025-05-21T23:19:13.857+0000] {processor.py:186} INFO - Started process (PID=550) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:19:13.860+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:19:13.865+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:19:13.865+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:19:13.967+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:19:14.009+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:19:14.008+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:19:14.044+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:19:14.043+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:19:14.097+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.253 seconds
+[2025-05-21T23:19:46.476+0000] {processor.py:186} INFO - Started process (PID=624) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:19:46.478+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:19:46.484+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:19:46.483+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:19:46.584+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:19:46.626+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:19:46.626+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:19:46.659+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:19:46.659+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:19:46.764+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.305 seconds
+[2025-05-21T23:20:18.739+0000] {processor.py:186} INFO - Started process (PID=696) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:20:18.743+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:20:18.749+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:20:18.749+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:20:18.885+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:20:18.926+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:20:18.926+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:20:18.962+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:20:18.961+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:20:19.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.284 seconds
+[2025-05-21T23:20:50.764+0000] {processor.py:186} INFO - Started process (PID=767) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:20:50.766+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:20:50.771+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:20:50.770+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:20:50.871+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:20:50.911+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:20:50.910+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:20:50.946+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:20:50.945+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:20:51.034+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.283 seconds
+[2025-05-21T23:21:23.645+0000] {processor.py:186} INFO - Started process (PID=838) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:21:23.647+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:21:23.651+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:21:23.650+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:21:23.735+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:21:23.773+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:21:23.772+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:21:23.807+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:21:23.806+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:21:23.876+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.242 seconds
+[2025-05-21T23:21:55.940+0000] {processor.py:186} INFO - Started process (PID=906) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:21:55.942+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:21:55.947+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:21:55.947+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:21:56.049+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:21:56.089+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:21:56.088+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:21:56.120+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:21:56.119+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:21:56.162+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.235 seconds
+[2025-05-21T23:22:26.819+0000] {processor.py:186} INFO - Started process (PID=972) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:22:26.821+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:22:26.826+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:22:26.825+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:22:26.929+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:22:26.969+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:22:26.968+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:22:27.003+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:22:27.003+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:22:27.046+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.241 seconds
+[2025-05-21T23:22:58.100+0000] {processor.py:186} INFO - Started process (PID=1040) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:22:58.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:22:58.107+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:22:58.107+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:22:58.213+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:22:58.257+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:22:58.257+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:22:58.289+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:22:58.288+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:22:58.327+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.239 seconds
+[2025-05-21T23:23:29.504+0000] {processor.py:186} INFO - Started process (PID=1105) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:23:29.506+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:23:29.510+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:23:29.510+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:23:29.616+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:23:29.663+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:23:29.662+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:23:29.703+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:23:29.702+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:23:29.819+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.325 seconds
+[2025-05-21T23:24:00.376+0000] {processor.py:186} INFO - Started process (PID=1172) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:24:00.378+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:24:00.383+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:24:00.382+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:24:00.475+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:24:00.516+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:24:00.516+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:24:00.548+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:24:00.547+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:24:00.604+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.239 seconds
+[2025-05-21T23:24:30.941+0000] {processor.py:186} INFO - Started process (PID=1237) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:24:30.944+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:24:30.949+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:24:30.949+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:24:31.051+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:24:31.089+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:24:31.089+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:24:31.132+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:24:31.132+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:24:31.239+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.311 seconds
+[2025-05-21T23:25:01.364+0000] {processor.py:186} INFO - Started process (PID=1305) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:25:01.366+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:25:01.373+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:25:01.372+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:25:01.466+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:25:01.502+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:25:01.501+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:25:01.531+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:25:01.530+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:25:01.636+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.285 seconds
+[2025-05-21T23:25:31.989+0000] {processor.py:186} INFO - Started process (PID=1371) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:25:31.991+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:25:31.995+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:25:31.995+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:25:32.086+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:25:32.126+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:25:32.125+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:25:32.156+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:25:32.155+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:25:32.259+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.282 seconds
+[2025-05-21T23:26:02.737+0000] {processor.py:186} INFO - Started process (PID=1437) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:26:02.739+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:26:02.744+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:26:02.744+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:26:02.845+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:26:02.884+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:26:02.883+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:26:02.916+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:26:02.915+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:26:02.957+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.231 seconds
+[2025-05-21T23:26:33.762+0000] {processor.py:186} INFO - Started process (PID=1503) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:26:33.764+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:26:33.769+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:26:33.769+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:26:33.869+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:26:33.909+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:26:33.908+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:26:33.948+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:26:33.947+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:26:34.061+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.312 seconds
+[2025-05-21T23:27:05.200+0000] {processor.py:186} INFO - Started process (PID=1569) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:27:05.203+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:27:05.211+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:27:05.210+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:27:05.338+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:27:05.393+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:27:05.393+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:27:05.436+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:27:05.435+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:27:05.498+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.316 seconds
+[2025-05-21T23:27:36.680+0000] {processor.py:186} INFO - Started process (PID=1637) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:27:36.683+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:27:36.687+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:27:36.687+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:27:36.788+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:27:36.831+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:27:36.831+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:27:36.886+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:27:36.886+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:27:36.937+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.270 seconds
+[2025-05-21T23:28:08.099+0000] {processor.py:186} INFO - Started process (PID=1703) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:28:08.102+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:28:08.107+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:28:08.106+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:28:08.210+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:28:08.249+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:28:08.248+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:28:08.278+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:28:08.278+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:28:08.387+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.304 seconds
+[2025-05-21T23:28:39.078+0000] {processor.py:186} INFO - Started process (PID=1769) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:28:39.080+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:28:39.085+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:28:39.084+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:28:39.182+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:28:39.233+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:28:39.232+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:28:39.268+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:28:39.268+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:28:39.382+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.316 seconds
+[2025-05-21T23:29:09.685+0000] {processor.py:186} INFO - Started process (PID=1834) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:29:09.687+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:29:09.692+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:29:09.691+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:29:09.802+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:29:09.842+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:29:09.842+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:29:09.873+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:29:09.872+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:29:09.912+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.242 seconds
+[2025-05-21T23:29:40.563+0000] {processor.py:186} INFO - Started process (PID=1900) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:29:40.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:29:40.570+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:29:40.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:29:40.659+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:29:40.702+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:29:40.702+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:29:40.738+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:29:40.737+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:29:40.781+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.230 seconds
+[2025-05-21T23:30:10.963+0000] {processor.py:186} INFO - Started process (PID=1966) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:30:10.966+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:30:10.971+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:30:10.970+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:30:11.079+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:30:11.120+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:30:11.119+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:30:11.156+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:30:11.155+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:30:11.198+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.247 seconds
+[2025-05-21T23:30:42.156+0000] {processor.py:186} INFO - Started process (PID=2032) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:30:42.158+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:30:42.162+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:30:42.162+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:30:42.256+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:30:42.294+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:30:42.294+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:30:42.327+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:30:42.326+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:30:42.370+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.224 seconds
+[2025-05-21T23:31:13.563+0000] {processor.py:186} INFO - Started process (PID=2100) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:31:13.565+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:31:13.570+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:31:13.570+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:31:13.690+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:31:13.736+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:31:13.736+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:31:13.767+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:31:13.766+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:31:13.872+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.321 seconds
+[2025-05-21T23:31:45.564+0000] {processor.py:186} INFO - Started process (PID=2169) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:31:45.567+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:31:45.571+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:31:45.571+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:31:45.684+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:31:45.724+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:31:45.723+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:31:45.755+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:31:45.754+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:31:45.797+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.245 seconds
+[2025-05-21T23:32:15.998+0000] {processor.py:186} INFO - Started process (PID=2235) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:32:16.000+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:32:16.004+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:32:16.004+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:32:16.104+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:32:16.146+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:32:16.146+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:32:16.178+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:32:16.177+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:32:16.220+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.237 seconds
+[2025-05-21T23:32:46.507+0000] {processor.py:186} INFO - Started process (PID=2300) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:32:46.510+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:32:46.516+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:32:46.515+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:32:46.612+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:32:46.648+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:32:46.647+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:32:46.677+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:32:46.676+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:32:46.739+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.243 seconds
+[2025-05-21T23:33:16.887+0000] {processor.py:186} INFO - Started process (PID=2366) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:33:16.889+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:33:16.893+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:33:16.892+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:33:16.994+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:33:17.038+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:33:17.037+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:33:17.076+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:33:17.075+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:33:17.125+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.249 seconds
+[2025-05-21T23:33:48.203+0000] {processor.py:186} INFO - Started process (PID=2433) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:33:48.205+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:33:48.209+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:33:48.209+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:33:48.310+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:33:48.353+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:33:48.352+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:33:48.385+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:33:48.384+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:33:48.427+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.238 seconds
+[2025-05-21T23:34:19.193+0000] {processor.py:186} INFO - Started process (PID=2507) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:34:19.195+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:34:19.200+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:34:19.199+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:34:19.304+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:34:19.346+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:34:19.346+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:34:19.379+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:34:19.379+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:34:19.500+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.319 seconds
+[2025-05-21T23:34:50.507+0000] {processor.py:186} INFO - Started process (PID=2573) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:34:50.509+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:34:50.514+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:34:50.513+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:34:50.610+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:34:50.652+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:34:50.651+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:34:50.687+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:34:50.686+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:34:50.793+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.299 seconds
+[2025-05-21T23:35:22.102+0000] {processor.py:186} INFO - Started process (PID=2641) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:35:22.104+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:35:22.108+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:35:22.108+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:35:22.207+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:35:22.247+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:35:22.247+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:35:22.282+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:35:22.282+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:35:22.353+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.263 seconds
+[2025-05-21T23:35:54.204+0000] {processor.py:186} INFO - Started process (PID=2711) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:35:54.207+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:35:54.212+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:35:54.212+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:35:54.302+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:35:54.338+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:35:54.337+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:35:54.366+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:35:54.366+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:35:54.405+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.211 seconds
+[2025-05-21T23:36:25.770+0000] {processor.py:186} INFO - Started process (PID=2777) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:36:25.772+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:36:25.776+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:36:25.776+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:36:25.884+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:36:25.923+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:36:25.922+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:36:25.957+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:36:25.956+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:36:25.998+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.239 seconds
+[2025-05-21T23:36:56.151+0000] {processor.py:186} INFO - Started process (PID=2843) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:36:56.153+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:36:56.160+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:36:56.159+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:36:56.263+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:36:56.304+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:36:56.304+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:36:56.335+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:36:56.334+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:36:56.445+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.309 seconds
+[2025-05-21T23:37:26.748+0000] {processor.py:186} INFO - Started process (PID=2908) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:37:26.750+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:37:26.754+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:37:26.753+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:37:26.841+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:37:26.910+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:37:26.910+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:37:26.949+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:37:26.948+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:37:27.021+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.284 seconds
+[2025-05-21T23:41:38.282+0000] {processor.py:186} INFO - Started process (PID=145) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:41:38.285+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:41:38.290+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.289+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:41:38.419+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:41:38.665+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.664+0000] {override.py:1930} INFO - Created Permission View: can read on DAG:postgres_to_duckdb
+[2025-05-21T23:41:38.688+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.687+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG:postgres_to_duckdb
+[2025-05-21T23:41:38.704+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.703+0000] {override.py:1930} INFO - Created Permission View: can edit on DAG:postgres_to_duckdb
+[2025-05-21T23:41:38.723+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.722+0000] {override.py:1930} INFO - Created Permission View: can read on DAG Run:postgres_to_duckdb
+[2025-05-21T23:41:38.741+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.740+0000] {override.py:1930} INFO - Created Permission View: can delete on DAG Run:postgres_to_duckdb
+[2025-05-21T23:41:38.757+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.756+0000] {override.py:1930} INFO - Created Permission View: menu access on DAG Run:postgres_to_duckdb
+[2025-05-21T23:41:38.773+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.773+0000] {override.py:1930} INFO - Created Permission View: can create on DAG Run:postgres_to_duckdb
+[2025-05-21T23:41:38.775+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.775+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:41:38.814+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.814+0000] {dag.py:3262} INFO - Creating ORM DAG for postgres_to_duckdb
+[2025-05-21T23:41:38.817+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:41:38.816+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:41:38.866+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.599 seconds
+[2025-05-21T23:42:10.312+0000] {processor.py:186} INFO - Started process (PID=211) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:42:10.314+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:42:10.318+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:42:10.318+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:42:10.439+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:42:10.475+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:42:10.475+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:42:10.504+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:42:10.504+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:42:10.555+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.256 seconds
+[2025-05-21T23:42:41.691+0000] {processor.py:186} INFO - Started process (PID=277) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:42:41.693+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:42:41.699+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:42:41.698+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:42:41.790+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:42:41.827+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:42:41.827+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:42:41.866+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:42:41.866+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:42:41.913+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.234 seconds
+[2025-05-21T23:43:13.755+0000] {processor.py:186} INFO - Started process (PID=343) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:43:13.757+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:43:13.762+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:43:13.761+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:43:13.899+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:43:13.935+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:43:13.934+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:43:13.966+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:43:13.966+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:43:14.011+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.268 seconds
+[2025-05-21T23:43:46.388+0000] {processor.py:186} INFO - Started process (PID=409) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:43:46.390+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:43:46.396+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:43:46.395+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:43:46.502+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:43:46.539+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:43:46.539+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:43:46.568+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:43:46.568+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:43:46.640+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.267 seconds
+[2025-05-21T23:44:18.089+0000] {processor.py:186} INFO - Started process (PID=475) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:44:18.091+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:44:18.095+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:44:18.095+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:44:18.191+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:44:18.233+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:44:18.232+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:44:18.267+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:44:18.267+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:44:18.315+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.237 seconds
+[2025-05-21T23:44:50.315+0000] {processor.py:186} INFO - Started process (PID=541) to work on /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:44:50.317+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/postgres_to_duckdb.py for tasks to queue
+[2025-05-21T23:44:50.321+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:44:50.321+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:44:50.413+0000] {processor.py:925} INFO - DAG(s) 'postgres_to_duckdb' retrieved from /opt/airflow/dags/postgres_to_duckdb.py
+[2025-05-21T23:44:50.452+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:44:50.451+0000] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-05-21T23:44:50.480+0000] {logging_mixin.py:190} INFO - [2025-05-21T23:44:50.479+0000] {dag.py:4180} INFO - Setting next_dagrun for postgres_to_duckdb to None, run_after=None
+[2025-05-21T23:44:50.532+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/postgres_to_duckdb.py took 0.228 seconds

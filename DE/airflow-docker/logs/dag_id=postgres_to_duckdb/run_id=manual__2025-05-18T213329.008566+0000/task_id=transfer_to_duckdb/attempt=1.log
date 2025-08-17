@@ -1,0 +1,13 @@
+[2025-05-19T12:45:23.253+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: postgres_to_duckdb.transfer_to_duckdb manual__2025-05-18T21:33:29.008566+00:00 [queued]>
+[2025-05-19T12:45:23.283+0000] {taskinstance.py:1956} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: postgres_to_duckdb.transfer_to_duckdb manual__2025-05-18T21:33:29.008566+00:00 [queued]>
+[2025-05-19T12:45:23.285+0000] {taskinstance.py:2170} INFO - Starting attempt 1 of 1
+[2025-05-19T12:45:23.332+0000] {taskinstance.py:2191} INFO - Executing <Task(PythonOperator): transfer_to_duckdb> on 2025-05-18 21:33:29.008566+00:00
+[2025-05-19T12:45:23.349+0000] {standard_task_runner.py:60} INFO - Started process 492 to run task
+[2025-05-19T12:45:23.364+0000] {standard_task_runner.py:87} INFO - Running: ['***', 'tasks', 'run', 'postgres_to_duckdb', 'transfer_to_duckdb', 'manual__2025-05-18T21:33:29.008566+00:00', '--job-id', '25', '--raw', '--subdir', 'DAGS_FOLDER/postgres_to_duck.py', '--cfg-path', '/tmp/tmph21nd6j_']
+[2025-05-19T12:45:23.369+0000] {standard_task_runner.py:88} INFO - Job 25: Subtask transfer_to_duckdb
+[2025-05-19T12:45:23.516+0000] {task_command.py:423} INFO - Running <TaskInstance: postgres_to_duckdb.transfer_to_duckdb manual__2025-05-18T21:33:29.008566+00:00 [running]> on host 3156ea15c629
+[2025-05-19T12:45:23.737+0000] {taskinstance.py:2480} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='***' AIRFLOW_CTX_DAG_ID='postgres_to_duckdb' AIRFLOW_CTX_TASK_ID='transfer_to_duckdb' AIRFLOW_CTX_EXECUTION_DATE='2025-05-18T21:33:29.008566+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2025-05-18T21:33:29.008566+00:00'
+[2025-05-19T12:45:23.950+0000] {python.py:201} INFO - Done. Returned value was: None
+[2025-05-19T12:45:23.980+0000] {taskinstance.py:1138} INFO - Marking task as SUCCESS. dag_id=postgres_to_duckdb, task_id=transfer_to_duckdb, execution_date=20250518T213329, start_date=20250519T124523, end_date=20250519T124523
+[2025-05-19T12:45:24.058+0000] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2025-05-19T12:45:24.102+0000] {taskinstance.py:3280} INFO - 0 downstream tasks scheduled from follow-on schedule check
